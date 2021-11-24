@@ -1,0 +1,6 @@
+paho-mqtt
+onvif2_zeep
+WSDiscovery
+requests
+pillow
+psutil
