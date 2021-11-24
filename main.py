@@ -14,4 +14,5 @@ from modules.upgrade import UPGRADE
 if __name__ == "__main__":
     # PROCESS.main()
     # up = UPGRADE.backup()
-    down = UPGRADE.download()
+    # down = UPGRADE.download()
+    install = UPGRADE.install()
