@@ -13,9 +13,9 @@ from modules.upgrade import UPGRADE
 
 
 if __name__ == "__main__":
-    # PROCESS.main()
+    PROCESS.main()
     # up = UPGRADE.backup()
-    down = UPGRADE.checksum()
+    # down = UPGRADE.checksum()
     # install = UPGRADE.install()
     # if os.path.isfile(PATH_CONFIG_VERSION):
     #     f_version = open(PATH_CONFIG_VERSION, 'r')
