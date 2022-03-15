@@ -4,7 +4,10 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /root/VHBox_release-0.2.19-beta/main.py
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/haidang/.Xauthority"
+WorkingDirectory=/home/haidang/VHBox_release-0.3.1-beta/
+ExecStart=/usr/bin/python3 /root/VHBox_release-0.3.1-beta/main.py
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=graphical.target
