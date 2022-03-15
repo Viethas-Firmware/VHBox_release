@@ -1,0 +1,16 @@
+
+QLabel {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #00A859;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#panel_media {
+    background-color: #FFFFFF;
+}
+
+QLabel#media {
+    background-color: #868282;
+}

@@ -1,0 +1,87 @@
+QLabel#panel_dev_config {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+QLabel#title {
+    color: #00a859;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#title_label {
+    color: black;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QLineEdit {
+    border-radius: 5px;
+    background-color: #eaeaea;
+    padding-left: 5px;
+    border: 2px solid #e5e5e5;
+}
+
+QComboBox {
+    color:black;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;
+}
+
+QComboBox::drop-down {
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: rgb(168, 168, 168);
+}
+
+#language {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#language:indicator {
+    background-color: #dfe6e9;
+    border-radius: 5px;
+}
+#language:indicator:checked {
+    background-color: #74b9ff;
+}
+
+
+/* QComboBox::down-arrow {
+    background-color: grey;
+} */
+
+#save {
+    border-radius: 5px;
+    background-color: #00a859;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#save:hover {
+    background-color: #00502b;
+}
+
+#btn_add {
+    image: url("/home/ducvu/Desktop/Work/VHBox/interface/resources/add_fill.png")
+}
+
+#btn_add:hover {
+    image: url("/home/ducvu/Desktop/Work/VHBox/interface/resources/add.png")
+}
+
+#area_select {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#label_version {
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-style: italic;
+    color: gray;
+}

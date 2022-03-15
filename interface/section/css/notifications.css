@@ -1,0 +1,38 @@
+#notify {
+    background-color:rgba(101, 107, 110, 0.5);
+}
+
+#panel {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+#panel_image {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#notify_box {
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+#type_image {
+    background-color: #ffffff;
+}
+
+#lbl_message {
+    background-color: #ffffff;
+}
+
+#btn_ok {
+    background-color: #ffffff;
+    border: 2px solid rgb(69, 170, 242);
+    border-radius: 5px;
+    color: black;
+}
+
+#btn_ok:hover {
+    background-color: rgb(69, 170, 242);
+    color: #ffffff;
+}

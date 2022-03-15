@@ -1,0 +1,25 @@
+QLabel#panel_clock {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+QLabel#title {
+    background-color: #FFFFFF;
+    color: #00a859;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#date {
+    background-color: #FFFFFF;
+    color: rgb(54, 54, 54);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#time {
+    background-color: #FFFFFF;
+    color:rgb(54, 54, 54);
+    font-size: 34px;
+    font-weight: bold;
+}

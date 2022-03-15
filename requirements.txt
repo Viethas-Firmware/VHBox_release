@@ -4,3 +4,6 @@ WSDiscovery
 requests
 pillow
 psutil
+pygame
+colorama
+python-vlc

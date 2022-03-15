@@ -1,0 +1,90 @@
+#panel_camera {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#title {
+    color: #00a859;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#button {
+    color: #FFFFFF;
+    background-color: #00a859;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#button:hover {
+    background-color: #006134;
+}
+
+#title_label{
+    font-size: 14px;
+    font-weight:800;
+}
+
+#title_child {
+    font-size: 14px;
+}
+
+#txt_config {
+    border-radius: 5px;
+    background-color: #eaeaea;
+    padding-left: 5px;
+    border: 2px solid #e5e5e5;
+}
+
+QComboBox {
+    color:black;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    border: 2px solid e5e5e5;
+}
+
+QComboBox::drop-down {
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(168, 168, 168);
+}
+
+#btn_edit {
+    background-color: #ffffff;
+    border: 2px solid rgb(69, 170, 242);
+    border-radius: 5px;
+    color: rgb(69, 170, 242);
+    font-weight: 500;
+}
+
+#btn_edit:hover {
+    background-color: rgb(69, 170, 242);
+    color: #ffffff;
+}
+
+#btn_update {
+    border-radius: 5px;
+    background-color: #00a859;
+    color: #FFFFFF;
+}
+
+#btn_update:hover {
+    background-color: #006134;
+}
+
+#btn_reboot {
+    border-radius: 5px;
+    color: #ff5555;
+    background-color: #FFFFFF;
+    border: 2px solid #ff5555;
+    font-weight: 500;
+}
+
+#btn_reboot:hover {
+    background-color: #ff5555;
+    color : #FFFFFF;
+    border: 2px solid #ff5555;
+}

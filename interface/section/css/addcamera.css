@@ -1,0 +1,67 @@
+#panel_camera {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#title {
+    background-color: #FFFFFF;
+    color: #00a859;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#btn_back {
+    border-radius: 5px;
+    color: #ff5555;
+    background-color: #FFFFFF;
+    border: 2px solid #ff5555;
+    font-weight: 500;
+}
+
+#btn_back:hover {
+    background-color: #ff5555;
+    color : #FFFFFF;
+    border: 2px solid #ff5555;
+}
+
+#panel {
+    background-color: #FFFFFF;
+}
+
+#textbox {
+    border-radius: 5px;
+    background-color: #eaeaea;
+    padding-left: 5px;
+    border: 2px solid #e5e5e5;
+}
+
+#btn_save {
+    border-radius: 5px;
+    color : #FFFFFF;
+    background-color: #00a859;
+    font-weight: 500;
+}
+
+#btn_save:hover {
+    background-color: #006d3a;
+}
+
+QComboBox {
+    color:black;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;
+}
+
+QComboBox::drop-down {
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(168, 168, 168);
+}
+
+
+
+#lbl_title {
+    background-color: #FFFFFF;
+}

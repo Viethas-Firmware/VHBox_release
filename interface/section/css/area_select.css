@@ -1,0 +1,32 @@
+#text_area {
+    color:black;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;
+}
+
+#btn_edit {
+    background-color: rgba(0, 0, 0, 0);
+    image: url("interface/resources/edit.png")
+}
+
+#btn_edit:hover {
+    image: url("interface/resources/edit_fill.png")
+}
+
+#btn_remove {
+    background-color: rgba(0, 0, 0, 0);
+    image: url("interface/resources/remove.png")
+}
+
+#btn_remove:hover {
+    image: url("interface/resources/remove_fill.png")
+}
+
+#area_editor {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#btn_add {
+    background-color: white;
+}

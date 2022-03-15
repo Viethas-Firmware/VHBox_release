@@ -1,0 +1,46 @@
+#panel_media {
+    background-color: #FFFFFF;
+}
+
+#btn {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#panel_video {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#timeline::handle {
+    width: 6px;
+    height: 6px;
+}
+
+#timeline::handle:horizontal {
+    background-color: rgb(97, 97, 97);
+    border-radius: 6px
+}
+
+
+#timeline::sub-page
+{
+    background: rgb(255, 118, 117);
+    border-radius: 2px;
+}
+
+#timeline::add-page
+{
+    background: rgb(189, 189, 189);
+    border-radius: 2px;
+}
+
+#title {
+    color: #00A859;
+    background-color: #FFFFFF;
+    font-size: 14px;
+}
+
+#time {
+    background-color: #FFFFFF;
+}

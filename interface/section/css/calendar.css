@@ -1,0 +1,36 @@
+#panel_calendar {
+    background-color: #eaeaea;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#label_date {
+    border: none;
+    background-color: #eaeaea;
+    font-size: 12px;
+    color: black;
+
+}
+
+#label_date:hover {
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #00a859;
+    color: #FFFFFF;
+}
+
+#groupbox {
+    background-color: #eaeaea;
+    border: none;
+}
+
+#btn_month {
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+
+#control_time {
+    border: none;
+    background-color: #eaeaea;
+}

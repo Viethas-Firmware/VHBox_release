@@ -1,0 +1,10 @@
+chỉnh sửa file vhbox.service ở vị trí 
+"ExecStart=/usr/bin/python3 /root/VHBox_release-0.2.19-beta/main.py"
+
+Sau đó copy file vhbox.service vào vị trí
+"/etc/systemd/system/"
+
+Thực hiện các lệnh sau
+1.  sudo systemctl daemon-reload
+2.  sudo systemctl enable vhbox.service
+3.  sudo systemctl start vhbox.service

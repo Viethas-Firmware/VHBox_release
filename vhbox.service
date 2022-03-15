@@ -1,0 +1,10 @@
+[Unit]
+Description=Viethas Cloudcamera Box service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /root/VHBox_release-0.2.19-beta/main.py
+
+[Install]
+WantedBy=multi-user.target
