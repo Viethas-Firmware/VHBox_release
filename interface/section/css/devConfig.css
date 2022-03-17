@@ -86,3 +86,8 @@ QComboBox::drop-down {
     color: gray;
     font-size: 12px;
 }
+
+#label {
+    background-color: #FFFFFF;
+    font-style: italic;
+}
