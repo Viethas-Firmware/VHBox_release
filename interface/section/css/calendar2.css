@@ -1,0 +1,62 @@
+#panel_calendar {
+    background-color: #c7ecee;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+#lbl_datetime {
+    background-color: #c7ecee;
+    font-weight: bold;
+}
+
+#btn_month {
+    background-color: #c7ecee;
+    border-radius: 6px;
+}
+
+#btn_month:hover {
+    background-color: aquamarine;
+}
+
+#label_const {
+    border: none;
+    background-color: #c7ecee;
+    font-size: 14px;
+    font-weight: bold;
+    color:gray
+}
+
+#label_date {
+    border: none;
+    background-color: #c7ecee;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+#label_date:hover {
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #00a859;
+    color: #FFFFFF;
+}
+
+#btn_extend {
+    background-color: #ff7979;
+    border-radius: 5px;
+}
+
+#btn_extend:hover {
+    background-color: #eb4d4b;
+}
+
+#lbl_time {
+    background-color: azure;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#panel_time {
+    background-color: azure;
+}

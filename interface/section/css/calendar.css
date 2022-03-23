@@ -27,7 +27,11 @@
 
 #btn_month {
     background-color: #eaeaea;
-    border-radius: 5px;
+    border-radius: 6px;
+}
+
+#btn_month:hover {
+    background-color: aquamarine;
 }
 
 #control_time {

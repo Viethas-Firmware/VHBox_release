@@ -11,7 +11,7 @@ QLabel#title {
 }
 
 QLabel#btn {
-    background-color: #F2F2F2;
+    background-color: #bba4a4;
 }
 
 QLabel#center {
@@ -90,4 +90,16 @@ QLabel#center:hover {
 
 #volume_down:hover {
     image: url("interface/resources/volume-down.png");
+}
+
+#number {
+    background-color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#lbl_zoom {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
 }
