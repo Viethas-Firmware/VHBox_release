@@ -44,12 +44,12 @@
 }
 
 #btn_extend {
-    background-color: #ff7979;
+    background-color: #55efc4;
     border-radius: 5px;
 }
 
 #btn_extend:hover {
-    background-color: #eb4d4b;
+    background-color: #00b894;
 }
 
 #lbl_time {
