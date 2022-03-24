@@ -11,7 +11,7 @@ QLabel#title {
 }
 
 QLabel#btn {
-    background-color: #bba4a4;
+    background-color: #F2F2F2;
 }
 
 QLabel#center {
@@ -74,23 +74,13 @@ QLabel#center:hover {
 }
 
 #volume_up {
-    border-radius: 8px;
-    image: url("interface/resources/volume-up-fill.png");
-    
-}
-
-#volume_up:hover {
-    image: url("interface/resources/volume-up.png");
+    background-color: #ffffff;
 }
 
 #volume_down {
-    border-radius: 8px;
-    image: url("interface/resources/volume-down-fill.png");
+    background-color: #ffffff;
 }
 
-#volume_down:hover {
-    image: url("interface/resources/volume-down.png");
-}
 
 #number {
     background-color: #FFFFFF;

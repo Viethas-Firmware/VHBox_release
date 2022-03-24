@@ -15,28 +15,49 @@
     color: black;
 }
 
-QComboBox {
+/* QComboBox {
     color:black;
-    background-color: #eaeaea;
-    border-radius: 5px;
-    border: 2px solid #e5e5e5;
+    background-color: #c7ecee;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    color : #30336b;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 QComboBox::drop-down {
+    image: url("interface/resources/arrow_down.png");
     border: none;
-    border-radius: 5px;
-    background-color: rgb(168, 168, 168);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     width: 15px;
+    right: 5px;
 }
+
+QComboBox QAbstractItemView
+{
+    background-color: #c7ecee;
+    border: none;
+    border-radius: 8px;
+}
+
+QComboBox QAbstractItemView::item
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+} */
 
 #btn_search {
     border-radius: 5px;
-    background-color: #00a859;
+    background-color: #20bf6b;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 #btn_search:hover {
-    background-color: #006134;
+    background-color: #00b894;
+    color: #FFFFFF;
 }
 
 #groupbox {

@@ -24,7 +24,7 @@ QLineEdit {
     border: 2px solid #e5e5e5;
 }
 
-QComboBox {
+/* QComboBox {
     color:black;
     background-color: #eaeaea;
     border-radius: 5px;
@@ -35,8 +35,10 @@ QComboBox::drop-down {
     border: none;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
-    background-color: rgb(168, 168, 168);
-}
+    image: url("interface/resources/icon-28.png");
+    width: 15px;
+    right: 2px;
+} */
 
 #language {
     background-color: rgba(0, 0, 0, 0);

@@ -20,6 +20,6 @@ QLabel#date {
 QLabel#time {
     background-color: #FFFFFF;
     color:rgb(54, 54, 54);
-    font-size: 34px;
+    font-size: 40px;
     font-weight: bold;
 }
