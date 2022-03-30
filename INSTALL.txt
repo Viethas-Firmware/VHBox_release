@@ -8,3 +8,6 @@ Thực hiện các lệnh sau
 1.  sudo systemctl daemon-reload
 2.  sudo systemctl enable vhbox.service
 3.  sudo systemctl start vhbox.service
+
+Cách sửa lỗi "Home directory not accessible: Permission denied"
+sudo chown -R $USER:$USER $HOME/

@@ -36,3 +36,25 @@
     background-color: rgb(69, 170, 242);
     color: #ffffff;
 }
+
+#notify_connect{
+    background-color: #dfe6e9;
+    border: 1px solid #b1b7b9;
+    border-radius: 8px;
+}
+
+#lbl_icon{
+    background-color: #dfe6e9;
+}
+
+#btn_reject {
+    background-color: #dfe6e9;
+    border-radius: 10px;
+}
+#btn_reject:hover {
+    background-color: #636e72;
+}
+
+#lbl_title{
+    background-color: #dfe6e9;
+}

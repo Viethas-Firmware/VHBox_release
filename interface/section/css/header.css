@@ -4,21 +4,42 @@ QLabel{
 
 #btn_playback {
     border: none;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 600;
     background-color: #FFFFFF;
-    color: #7f8c8d;
+    color: #04aceb;
+    border-radius: 10px;
+}
+
+#btn_playback:hover{
+    background-color: #b8fcf6;
+    color: #04c0e4;
 }
 
 #btn_overview {
     border: none;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 600;
     background-color: #FFFFFF;
-    color: #7f8c8d;
+    color: #04aceb;
+    border-radius: 10px;
+}
+
+#btn_overview:hover{
+    background-color: #b8fcf6;
+    color: #04c0e4;
 }
 
 #btn_setting {
     border: none;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 600;
     background-color: #FFFFFF;
-    color: #7f8c8d;
+    color: #04aceb;
+    border-radius: 10px;
+}
+
+#btn_setting:hover{
+    background-color: #b8fcf6;
+    color: #04c0e4;
 }
