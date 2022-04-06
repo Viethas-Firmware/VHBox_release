@@ -93,3 +93,21 @@ QComboBox::drop-down {
     background-color: #FFFFFF;
     font-style: italic;
 }
+
+#label_size {
+    background-color: #FFFFFF;
+}
+
+#sld_size {
+    background-color: #FFFFFF;
+}
+
+#pBar {
+    border-radius: 4px;
+    background-color: #bdc3c7;
+}
+
+#pBar::chunk{
+    background-color: #3498db;
+    border-radius: 4px;
+}

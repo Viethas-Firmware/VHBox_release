@@ -38,24 +38,24 @@
 }
 
 #notify_connect{
-    background-color: #dfe6e9;
+    background-color: #bdc3c7;
     border: 1px solid #b1b7b9;
     border-radius: 8px;
 }
 
 #lbl_icon{
-    background-color: #dfe6e9;
+    background-color: #bdc3c7;
 }
 
 #btn_reject {
-    background-color: #dfe6e9;
+    background-color: #bdc3c7;
     border-radius: 10px;
 }
 #btn_reject:hover {
-    background-color: #636e72;
+    background-color: #d2dae2;
 }
 
 #lbl_title{
-    background-color: #dfe6e9;
+    background-color: #bdc3c7;
     font-size:  14px;
 }

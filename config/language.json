@@ -99,5 +99,11 @@
     "Check for updates": "Kiểm tra cập nhật",
     "Your software up to date": "Phần mềm của bạn đã được cập nhật.",
     "Install": "Cài đặt",
-    "No Internet": "Mất kết nối Internet."
+    "No Internet": "Mất kết nối Internet.",
+    "Internet connection.": "Kết nối Internet.",
+    "Connect to the SD card.": "Kết nối với thẻ SD.",
+    "Disconnect the SD card.": "Ngắt kết nối với thẻ SD.",
+    "Total": "Tổng cộng",
+    "Used": "Đã dùng",
+    "SD card": "Thẻ nhớ SD"
 }
