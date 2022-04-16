@@ -7,3 +7,4 @@ psutil
 pygame
 colorama
 python-vlc
+qrcode
