@@ -10,16 +10,28 @@
     font-weight: bold;
 }
 
-#button {
+#button_add {
     color: #FFFFFF;
-    background-color: #00a859;
+    background-color: #00a8ff;
     font-size: 14px;
     font-weight: bold;
     border-radius: 5px;
 }
 
-#button:hover {
-    background-color: #006134;
+#button_add:hover {
+    background-color: #0097e6;
+}
+
+#button_scan {
+    color: #FFFFFF;
+    background-color: #487eb0;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#button_scan:hover {
+    background-color: #40739e;
 }
 
 #title_label{
