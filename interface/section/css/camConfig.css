@@ -11,7 +11,7 @@
 }
 
 #button_add {
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #00a8ff;
     font-size: 14px;
     font-weight: bold;
@@ -23,7 +23,7 @@
 }
 
 #button_scan {
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: #487eb0;
     font-size: 14px;
     font-weight: bold;
@@ -41,6 +41,7 @@
 
 #title_child {
     font-size: 14px;
+    font-weight:600;
 }
 
 #txt_config {
@@ -69,7 +70,7 @@ QComboBox::drop-down {
     border: 2px solid rgb(69, 170, 242);
     border-radius: 5px;
     color: rgb(69, 170, 242);
-    font-weight: 500;
+    font-weight: bold;
 }
 
 #btn_edit:hover {
@@ -81,6 +82,7 @@ QComboBox::drop-down {
     border-radius: 5px;
     background-color: #00a859;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 #btn_update:hover {
@@ -92,7 +94,7 @@ QComboBox::drop-down {
     color: #ff5555;
     background-color: #FFFFFF;
     border: 2px solid #ff5555;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 #btn_reboot:hover {
