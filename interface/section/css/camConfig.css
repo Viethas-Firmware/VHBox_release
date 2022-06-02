@@ -67,7 +67,7 @@ QComboBox::drop-down {
 
 #btn_edit {
     background-color: #ffffff;
-    border: 2px solid rgb(69, 170, 242);
+    border: 1px solid rgb(69, 170, 242);
     border-radius: 5px;
     color: rgb(69, 170, 242);
     font-weight: bold;
@@ -93,12 +93,12 @@ QComboBox::drop-down {
     border-radius: 5px;
     color: #ff5555;
     background-color: #FFFFFF;
-    border: 2px solid #ff5555;
+    border: 1px solid #ff5555;
     font-weight: bold;
 }
 
 #btn_reboot:hover {
     background-color: #ff5555;
     color : #FFFFFF;
-    border: 2px solid #ff5555;
+    border: 1px solid #ff5555;
 }
