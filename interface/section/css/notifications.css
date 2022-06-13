@@ -40,7 +40,7 @@
 #notify_connect{
     background-color: #bdc3c7;
     border: 1px solid #b1b7b9;
-    border-radius: 8px;
+    border-radius: 2px;
 }
 
 #lbl_icon{
@@ -57,6 +57,6 @@
 
 #lbl_title{
     background-color: #bdc3c7;
-    font-size:  18px;
+    font-size:  14px;
     font-weight: bold;
 }

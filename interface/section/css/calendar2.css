@@ -6,6 +6,7 @@
 }
 
 #lbl_datetime {
+    border: none;
     background-color: #c7ecee;
     font-weight: bold;
     color: #130f40;
