@@ -75,10 +75,20 @@ QLabel#center:hover {
 
 #volume_up {
     background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#volume_up:hover {
+    background-color: #B3B6B7;
 }
 
 #volume_down {
     background-color: #ffffff;
+    border-radius: 5px;
+}
+
+#volume_down:hover {
+    background-color: #B3B6B7;
 }
 
 

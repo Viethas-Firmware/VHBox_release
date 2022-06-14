@@ -38,9 +38,9 @@
 }
 
 #notify_connect{
-    background-color: #bdc3c7;
-    border: 1px solid #b1b7b9;
-    border-radius: 2px;
+    background-color: #ECF0F1;
+    border: 2px solid #b1b7b9;
+    border-radius: 4px;
 }
 
 #lbl_icon{
