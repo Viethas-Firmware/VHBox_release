@@ -1,0 +1,21 @@
+2023-04-24 15:04:41.348242		File configure "setup.json"		not found
+2023-04-24 15:04:41.348303		File configure "configure.json"		not found
+2023-04-24 15:04:41.348336		File configure "record_configure.json"	not found
+2023-04-24 15:04:41.348381		File configure "version.json"		created
+2023-04-24 15:04:41.348897			Welcome VhClouldCam.	v0.7.1py39-beta
+2023-04-24 15:04:41.348975			BoxID: b42e99b626f5
+2023-04-24 15:04:41.628377		[THREAD] Check connect internet:		42326
+2023-04-24 15:04:41.628692		[PROCESS] GUI on:		42332
+2023-04-24 15:04:41.631626		[THREAD] sdcard on plugged:	start
+2023-04-24 15:04:41.631624		[PROCESS] update record file:	42334
+2023-04-24 15:04:41.631705		[THREAD] Check request command:		42326
+2023-04-24 15:04:41.632514		[THREAD] stream error on:	start
+2023-04-24 15:04:41.632987		[THREAD] reboot camera:		start
+2023-04-24 15:04:41.633095		[THREAD] restart task camera:	start
+2023-04-24 15:04:41.636703		[PROCESS] Check display available:		42340
+2023-04-24 15:04:41.639859			Start 0 devices.
+2023-04-24 15:04:41.640105		[PROCESS] MQTT on:		42326
+2023-04-24 15:04:41.868711	++++++++++++++++++++++
+2023-04-24 15:04:41.868722	[INFO] Connect internet successful.
+2023-04-24 15:04:41.868726	++++++++++++++++++++++
+2023-04-24 15:04:42.139193			[WARNING] connect mqtt OK

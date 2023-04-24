@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- --- -->
+   <title>Sidebar w/ Filter</title>
+   <!-- --- -->
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <!-- Topnav -->
+   <nav class="topnav">T o p - N a v i g a t i o n - B a r</nav>
+   <!-- Main Area -->
+   <article class="main article">M a i n - C o n t e n t</article>
+   <!-- Sidenav -->
+   <aside class="sidenav">
+      <div class="container">
+         <div class="sidenav-filter">
+            <input id="sidenav-input" type="text" placeholder="Tìm bài viết ....">
+            <button id="sidenav-button">&lt;</button>
+         </div>
+         <!-- --- -->
+         <div class="sidenav-navlist">
+            <span class="sidenav-header">HTML</span>
+            <a class="sidenav-link" href="#" data-tag="html,begin">Tạo Một Trang Web</a>
+            <a class="sidenav-link" href="#" data-tag="html,image,link">Chèn Ảnh & Liên Kết</a>
+            <a class="sidenav-link" href="#" data-tag="html,embed,content">Các Nội Dung Nhúng</a>
+            <a class="sidenav-link" href="#" data-tag="html,container">Các Thẻ Container</a>
+            <a class="sidenav-link" href="#" data-tag="html,list,table">Danh Sách & Bảng Biểu</a>
+            <a class="sidenav-link" href="#" data-tag="html,text,format">Các Thẻ Định Dạng Chữ</a>
+            <a class="sidenav-link" href="#" data-tag="html,input,form">Nhập Liệu & Biểu Mẫu</a>
+            <a class="sidenav-link" href="#" data-tag="html,input,other">Thành Phần Nhập Liệu</a>
+            <a class="sidenav-link" href="#" data-tag="html,graphic,data">Đồ Họa & Dữ Liệu</a>
+         </div>
+         <!-- --- -->
+         <div class="sidenav-navlist">
+            <span class="sidenav-header">CSS</span>
+            <a class="sidenav-link" href="#" data-tag="css,begin">CSS Là Cái Gì?</a>
+            <a class="sidenav-link" href="#" data-tag="css,selector,priority">Bộ Chọn & Ưu Tiên</a>
+            <a class="sidenav-link" href="#" data-tag="css,color,length">Màu Sắc & Kích Thước</a>
+            <a class="sidenav-link" href="#" data-tag="css,container,type">Các Kiểu Container</a>
+            <a class="sidenav-link" href="#" data-tag="css,background">Thuộc Tính Background</a>
+            <a class="sidenav-link" href="#" data-tag="css,border">Thuộc Tính Border</a>
+            <a class="sidenav-link" href="#" data-tag="css,position">Thuộc Tính Position</a>
+            <a class="sidenav-link" href="#" data-tag="css,text,content">Nội Dung Chữ</a>
+            <a class="sidenav-link" href="#" data-tag="css,selector,combine">Kết Hợp Bộ Chọn</a>
+            <a class="sidenav-link" href="#" data-tag="css,pseudo,class">Class Giả Định</a>
+            <a class="sidenav-link" href="#" data-tag="css,width,height">Width & Height</a>
+            <a class="sidenav-link" href="#" data-tag="css,margin,padding">Margin & Padding</a>
+            <a class="sidenav-link" href="#" data-tag="css,media,query">Truy Vấn Thiết Bị</a>
+            <a class="sidenav-link" href="#" data-tag="css,framework,icon">Frameworks & Icons</a>
+            <a class="sidenav-link" href="#" data-tag="css,transition">Hiệu Ứng Chuyển Tiếp</a>
+            <a class="sidenav-link" href="#" data-tag="css,animation">Hoạt Ảnh Tự Tạo</a>
+            <a class="sidenav-link" href="#" data-tag="css,function,variable">Hàm & Biến</a>
+            <a class="sidenav-link" href="#" data-tag="css,grid,flex">Grid & Flex</a>
+         </div>
+         <!-- --- -->
+         <div class="sidenav-navlist">
+            <span class="sidenav-header">Bootstrap</span>
+            <a class="sidenav-link" href="#" data-tag="bootstrap,begin">Bootstrap Là Cái Gì?</a>
+            <a class="sidenav-link" href="#" data-tag="bootstrap,component,utility">Components & Utilities</a>
+            <a class="sidenav-link" href="#" data-tag="bootstrap,content,layout">Content & Layout</a>
+         </div>
+         <!-- --- -->
+         <div class="sidenav-navlist">
+            <span class="sidenav-header">JavaScript</span>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,begin">JavaScript Là Cái Gì?</a>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,type,variable">Kiểu & Biến</a>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,function,scope">Hàm & Vùng</a>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,object,everything">Object & Everything</a>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,document,event">Document & Event</a>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,conditional">Cấu Trúc Điều Kiện</a>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,collection,looping">Collection & Looping</a>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,window,request">Window & Request</a>
+            <a class="sidenav-link" href="#" data-tag="javascript,js,library,framework">Library & Framework</a>
+         </div>
+         <!-- --- -->
+         <div class="sidenav-navlist">
+            <span class="sidenav-header">jQuery</span>
+            <a class="sidenav-link" href="#" data-tag="jquery,begin">jQuery Là Cái Gì?</a>
+            <a class="sidenav-link" href="#" data-tag="jquery,selector,method">Bộ Chọn & Thao Tác</a>
+            <a class="sidenav-link" href="#" data-tag="jquery,effect,request">Hiệu Ứng & Yêu Cầu</a>
+         </div>
+         <!-- --- -->
+         <div class="sidenav-navlist">
+            <span class="sidenav-header">Sample</span>
+            <a class="sidenav-link" href="#" data-tag="html,css,navbar,simple">Navbar Đơn Giản</a>
+            <a class="sidenav-link" href="#" data-tag="html,css,navbar,responsive">Navbar Responsive</a>
+            <a class="sidenav-link" href="#" data-tag="html,css,carousel,simple">Carousel Đơn Giản</a>
+            <a class="sidenav-link" href="#" data-tag="html,css,javascript,js,dropdown,simple">1001 Dropdown</a>
+         </div>
+      </div><!-- .container -->
+   </aside>
+   <!-- Footer -->
+   <footer class="footer">F o o t e r</footer>
+   <!-- JavaScript -->
+   <script src="main.js"></script>
+</body>
+</html>
